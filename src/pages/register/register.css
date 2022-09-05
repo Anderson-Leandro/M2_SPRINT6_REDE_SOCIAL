@@ -1,0 +1,23 @@
+body{
+      background-color: var(--color-grey5);
+}
+
+header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 20px;
+      background-color: var(--color-grey1);      
+}
+
+
+header > div{
+      display: flex;
+      gap: 20px;
+}
+
+section > div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}

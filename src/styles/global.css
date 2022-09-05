@@ -1,0 +1,40 @@
+:root {
+      --color-brand1: #4263EB;
+      --color-brand2: #364FC7;
+      --color-brand3: #EDF2FF;
+
+      --color-grey0: #0A0C0D;
+      --color-grey1: #212529;
+      --color-grey2: #495057;
+      --color-grey3: #868E96;
+      --color-grey4: #DEE2E6;
+      --color-grey5: #F8F9FA;
+
+      --color-grey-opacity-1: rgba(33, 37, 41, 0.5);
+
+      --color-white: #FFFFFF;
+
+      --color-like: #D7443E;
+}
+
+.modal {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      background-color: var(--color-white);
+      margin: 40px auto;
+      padding: 40px 20px;
+      gap: 20px;
+      border-radius: 8px;
+}
+
+.modal form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+}
+
+.modal a, span{
+      text-align: center;
+}

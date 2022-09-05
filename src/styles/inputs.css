@@ -1,0 +1,50 @@
+.input1 {
+      padding: 16px 5px 16px 20px;
+      background-color: var(--color-white);
+      border: 2px solid var(--color-grey4);
+      border-radius: 4px;
+      font-family: 'Inter', sans-serif;
+}
+
+.input1::placeholder {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      color: var(--color-grey3);
+      font-family: 'Inter', sans-serif;
+}
+
+.input1:focus {
+      border-color: var(--color-brand1);
+      color: var(--color-grey1);
+}
+
+.input1:valid {
+      color: var(--color-grey2);
+}
+
+
+.textArea1 {
+      padding: 28px 21px 29px 21px;
+      background-color: var(--color-white);
+      border: 2px solid var(--color-grey4);
+      border-radius: 4px;
+      font-family: 'Inter', sans-serif;
+}
+
+.textArea1::placeholder {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      color: var(--color-grey3);
+      font-family: 'Inter', sans-serif;
+}
+
+.textArea1:focus {
+      border-color: var(--color-brand1);
+      color: var(--color-grey1);
+}
+
+.textArea1:valid {
+      color: var(--color-grey2);
+}
