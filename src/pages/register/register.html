@@ -12,6 +12,9 @@
       <link rel="stylesheet" href="../../styles/buttons.css">
       <link rel="stylesheet" href="./register.css">
       <link rel="stylesheet" href="../../styles/colors.css">
+
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
       <title>Faça seu cadastro</title>
 </head>
 
@@ -43,15 +46,15 @@
 
                   <form>
 
-                        <input class="input1" type="text" placeholder="Seu nome">
+                        <input name="username" class="input1" type="text" placeholder="Seu nome">
 
-                        <input class="input1" type="email" placeholder="Seu e-mail">
+                        <input name="email" class="input1" type="email" placeholder="Seu e-mail">
 
-                        <input class="input1" type="password" placeholder="Sua senha">
+                        <input name="password" class="input1" type="password" placeholder="Sua senha">
 
-                        <input class="input1" type="text" placeholder="Qual o seu trabalho?">
+                        <input name="work_at" class="input1" type="text" placeholder="Qual o seu trabalho?">
 
-                        <input class="input1" type="text" placeholder="URL da imagem de perfil">
+                        <input name="image" class="input1" type="text" placeholder="URL da imagem de perfil">
 
                         <button class="buttonPrimary btnHeight1">Registrar</button>
 
@@ -63,7 +66,9 @@
 
             </section>
       </main>
+      <script type="module" src="./register.js"></script>
 
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 
 </html>
