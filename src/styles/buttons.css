@@ -8,6 +8,7 @@
       color: var(--color-white);
       font-size: 14px;
       font-weight: 600;
+      cursor: pointer;
 }
 
 .buttonPrimary:hover{
@@ -23,6 +24,7 @@
       color: var(--color-white);
       font-size: 14px;
       font-weight: 600;
+      cursor: pointer;
 }
 
 .buttonGrey1:hover{
@@ -38,6 +40,7 @@
       color: var(--color-grey1);
       font-size: 14px;
       font-weight: 600;
+      cursor: pointer;
 }
 
 .buttonWhite:hover{
@@ -54,6 +57,7 @@
       color: var(--color-grey1);
       font-size: 14px;
       font-weight: 600; 
+      cursor: pointer;
 }
 
 .buttonOutlineMedium:hover{
@@ -118,4 +122,5 @@
       position: absolute;
       top: 16px;
       right: 10px;
+      cursor: pointer;
 }

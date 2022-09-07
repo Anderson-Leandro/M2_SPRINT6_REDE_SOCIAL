@@ -1,6 +1,6 @@
 export class Requests {
 
-      static baseUrl = "http://m2-rede-social.herokuapp.com/api/"
+      static baseUrl = "https://m2-rede-social.herokuapp.com/api/"
       static userUuid = localStorage.getItem("kenzieRedeSocial:user_uuid")
       static token = localStorage.getItem("kenzieRedeSocial:token")
 
