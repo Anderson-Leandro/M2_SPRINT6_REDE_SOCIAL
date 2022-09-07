@@ -1,0 +1,28 @@
+.modalPost {
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: var(--color-grey-opacity-1);
+      padding: 50px 5%;
+}
+
+.modalPost .postsList-item {
+      background-color: var(--color-white);
+      border-radius: 8px;
+      padding: 40px 24px;
+      position: relative;
+}
+
+.hidden {
+      display: none;
+}
+
+@media (min-width: 1024px) {
+      .modalPost .postsList-item  {
+            top: 15%;
+            max-width: 600px;
+            margin: 0 auto;
+      }
+}
